@@ -12,7 +12,7 @@ nav {
     font-size: 24px;
     font-weight: bold;
     color: #fff;
-    backgr  ound: #e30cce;
+    background: #e30cce;
     padding: 8px 15px;
     border-radius: 12px;
     border: 2px dashed black;
@@ -75,7 +75,6 @@ nav {
 
 
 body {
-    direction: rtl;
     font-family: "Noto Nastaliq Urdu", serif;
     background: rgb(108, 97, 97);
     color: #f7f4f4;
@@ -84,8 +83,9 @@ body {
 .banner {
     position: relative;
     height: 70vh;
-    background: url("mosque.jpg") center/cover no-repeat;
     display: flex;
+        background: url("mosque.jpg") center/cover no-repeat;
+
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -105,8 +105,8 @@ body {
 
 .banner-text h1 {
     font-size: 40px;
-    color: #f8e10e;
-     margin-bottom: 10px;
+    color: #d7d2a6;
+    margin-bottom: 10px;
 }
 
 .banner-text p {
@@ -122,18 +122,18 @@ body {
 
 .hadith-section h2 {
     font-size: 28px;
-    margin-bottom: 30px;
-    color: #222;
+    text-align: center;
+    color: #d2cfcf;
 }
 
 .hadith-card {
-    background: #f5f3f3;
+    background:rgb(250, 248, 248);
     padding: 20px;
     margin: 15px auto;
-    border-radius: 10px;
+    border-radius: 40px;
     max-width: 700px;
     box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
-    transition: transform 0.2s, box-shadow 0.3s;
+    transition: transform 0.2s, box-shadow 0.5s;
 }
 
 .hadith-card:hover {
@@ -143,8 +143,7 @@ body {
 }
 
 .hadith-card p {
-    font-size: 20px;
-
+    font-size: 30px;
     line-height: 1.8;
     color: #100f0f;
 }
@@ -161,8 +160,8 @@ body {
     background-color: aliceblue;
      padding: 20px;
     text-align: center;
-    background-color: rgb(1, 10, 16);
-    border-radius: 20px;
+    background-color: rgb(41, 107, 150);
+    border-radius: 100px;
     margin: 40px ;
 
 }
@@ -172,4 +171,4 @@ body {
 
 .namaz-card:hover {
     transform: scale(1.03);
-    box-shadow: 0px 8px 20px rgba(238, 237, 238, 0.3);
+    box-shadow: 10px;}
